@@ -1,0 +1,31 @@
+﻿@model IEnumerable<FAQq.Models.Question>
+
+<h2>Pytania oczekujące na zatwierdzenie</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tytuł</th>
+            <th>Kategoria</th>
+            <th>Autor</th>
+            <th>Akcja</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var q in Model)
+        {
+            <tr>
+                <td>@q.Title</td>
+                <td>@q.Category?.Name</td>
+                <td>@q.User?.Email</td>
+                <td>
+                    <a asp-action="Approve"
+                       asp-route-id="@q.Id"
+                       class="btn btn-success btn-sm">
+                        Zatwierdź
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

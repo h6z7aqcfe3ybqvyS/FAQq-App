@@ -1,0 +1,85 @@
+﻿@model FAQq.Models.Question
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Question</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Content)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IsApproved)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IsApproved)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.User)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.User.Id)
+        </dd>
+    </dl>
+</div
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+<h3>Odpowiedzi</h3>
+
+@if (Model.Answers.Any())
+{
+    @foreach (var a in Model.Answers)
+    {
+        <div class="border rounded p-2 mb-2">
+            <b>@a.User?.Email</b>
+            <small class="text-muted">@a.CreatedAt</small>
+            <p>@a.Content</p>
+        </div>
+    }
+}
+else
+{
+    <p>Brak odpowiedzi.</p>
+}
+@if (User.Identity.IsAuthenticated && Model.IsApproved)
+{
+    <h4>Dodaj odpowiedź</h4>
+
+    <form asp-controller="Answers" asp-action="Create" method="post">
+        <input type="hidden" name="questionId" value="@Model.Id" />
+
+        <textarea name="content" class="form-control" rows="4" required></textarea>
+
+        <button type="submit" class="btn btn-primary mt-2">
+            Wyślij odpowiedź
+        </button>
+    </form>
+}

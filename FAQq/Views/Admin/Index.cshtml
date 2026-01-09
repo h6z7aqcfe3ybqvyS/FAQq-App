@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Panel administratora</h2>
+
+<h3>Kategorie z największą liczbą pytań bez odpowiedzi</h3>
+<table class="table">
+    @foreach (var c in ViewBag.Categories)
+    {
+        <tr>
+            <td>@c.Category</td>
+            <td>@c.Unanswered</td>
+        </tr>
+    }
+</table>
+
+<h3>Najaktywniejsi eksperci</h3>
+<table class="table">
+    @foreach (var u in ViewBag.Experts)
+    {
+        <tr>
+            <td>@u.User</td>
+            <td>@u.Answers odpowiedzi</td>
+        </tr>
+    }
+</table>
+
+<a asp-action="Users">Zarządzaj użytkownikami</a>

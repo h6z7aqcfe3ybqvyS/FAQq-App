@@ -1,0 +1,63 @@
+﻿@model IEnumerable<FAQq.Models.Question>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<h1>Index</h1>
+
+<p>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Create" class="btn btn-primary">Zadaj pytanie</a>
+    }
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+                </td>
+                <td>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+                    {
+                        <a asp-controller="Questions" asp-action="Edit" asp-route-id="@item.Id">Edytuj</a>
+                        <a asp-controller="Questions" asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+                        <a asp-controller="Questions" asp-action="Details" asp-route-id="@item.Id">Pokaż</a>
+                    }
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
