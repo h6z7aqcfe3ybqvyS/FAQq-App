@@ -20,18 +20,6 @@
                    asp-action="Index">
                     FAQq
                 </a>
-
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link"
-                               asp-controller="Home"
-                               asp-action="Index">
-                                Home
-                            </a>
-                        </li>
-                    </ul>
-
                     <ul class="navbar-nav align-items-center">
 
                         @if (User.Identity.IsAuthenticated)
@@ -65,7 +53,7 @@
                                     <a class="btn btn-danger btn-sm"
                                        asp-controller="Questions"
                                        asp-action="Pending">
-                                        Pending
+                                        Pytania do zatwierdzenia
                                     </a>
                                 </li>
                             }
