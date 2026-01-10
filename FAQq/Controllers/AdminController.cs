@@ -62,7 +62,7 @@ namespace FAQq.Controllers
             {
                 await _userManager.AddToRoleAsync(user, "Moderator");
 
-                // 🔍 DEBUG – sprawdź role
+                // DEBUG sprawdź role
                 var roles = await _userManager.GetRolesAsync(user);
                 TempData["Roles"] = string.Join(", ", roles);
             }
@@ -88,6 +88,23 @@ namespace FAQq.Controllers
 
                 TempData["Roles"] = string.Join(", ", await _userManager.GetRolesAsync(user));
             }
+
+            return RedirectToAction(nameof(Users));
+        }
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeleteUser(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+
+            if (user == null)
+                return NotFound();
+
+            // Admin nie może usunąć samego siebie
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (user.Id == currentUser.Id)
+                return BadRequest("Nie możesz usunąć własnego konta.");
+
+            await _userManager.DeleteAsync(user);
 
             return RedirectToAction(nameof(Users));
         }

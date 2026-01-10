@@ -41,10 +41,17 @@
                         Zabierz Moderator
                     </a>
                 }
+
+                <a asp-action="DeleteUser"
+                   asp-route-id="@u.Id"
+                   class="btn btn-outline-danger btn-sm ms-2"
+                   onclick="return confirm('Na pewno chcesz usunąć tego użytkownika?');">
+                    Usuń użytkownika
+                </a>
             </td>
         </tr>
     }
 
 </table>
 
-<a asp-action="Index">← Powrót do panelu</a>
+<a asp-action="Index">Powrót do panelu</a>

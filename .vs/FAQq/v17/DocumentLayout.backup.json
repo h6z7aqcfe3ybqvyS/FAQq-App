@@ -3,80 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\FAQq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\questions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\questions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\questions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\questions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\questiontag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\questiontag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\controllers\\answerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\controllers\\answerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\questions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\questions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\questions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\questions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\questions\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\questions\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\questions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\questions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\data\\categoryseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\data\\categoryseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|c:\\users\\pc\\source\\repos\\faqq\\faqq\\views\\questions\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D101FDC-2021-40FD-9B54-E9D57E6F62C7}|FAQq\\FAQq.csproj|solutionrelative:faqq\\views\\questions\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,88 +90,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FAQq\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FAQq\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T17:50:11.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Index.cshtml",
-              "RelativeDocumentMoniker": "FAQq\\Views\\Questions\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Index.cshtml",
-              "RelativeToolTip": "FAQq\\Views\\Questions\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAADwvzMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T17:46:36.694Z",
+              "Title": "AnswersController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\AnswersController.cs",
+              "RelativeDocumentMoniker": "FAQq\\Controllers\\AnswersController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\AnswersController.cs",
+              "RelativeToolTip": "FAQq\\Controllers\\AnswersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T20:18:34.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "FAQq\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "FAQq\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Create.cshtml",
+              "RelativeDocumentMoniker": "FAQq\\Views\\Questions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Create.cshtml",
+              "RelativeToolTip": "FAQq\\Views\\Questions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T16:50:48.08Z",
+              "WhenOpened": "2026-01-10T20:06:58.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "FAQq\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "FAQq\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T16:50:43.413Z",
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "FAQq\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Tag.cs",
+              "RelativeToolTip": "FAQq\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T15:21:15.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "FAQq\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "FAQq\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAADwv1EAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "FAQq\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Category.cs",
+              "RelativeToolTip": "FAQq\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T16:47:55.317Z",
+              "WhenOpened": "2026-01-10T15:20:42.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "FAQq\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "FAQq\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T15:19:50.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Answer.cs",
+              "RelativeDocumentMoniker": "FAQq\\Models\\Answer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Answer.cs",
+              "RelativeToolTip": "FAQq\\Models\\Answer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T15:19:50.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Details.cshtml",
+              "RelativeDocumentMoniker": "FAQq\\Views\\Questions\\Details.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Details.cshtml",
+              "RelativeToolTip": "FAQq\\Views\\Questions\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T15:09:11.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "FAQq\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "FAQq\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwB0AAAAQAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "FAQq\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "FAQq\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-08T19:05:37.639Z"
+              "WhenOpened": "2026-01-10T15:09:05.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "FAQq\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Question.cs",
+              "RelativeToolTip": "FAQq\\Models\\Question.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T15:00:17.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "FAQq\\Views\\Categories\\Create.cshtml",
@@ -180,154 +224,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Pending.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Pending.cshtml",
-              "RelativeDocumentMoniker": "FAQq\\Views\\Questions\\Pending.cshtml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Pending.cshtml",
-              "RelativeToolTip": "FAQq\\Views\\Questions\\Pending.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Index.cshtml",
+              "RelativeDocumentMoniker": "FAQq\\Views\\Questions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Index.cshtml",
+              "RelativeToolTip": "FAQq\\Views\\Questions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-08T18:46:41.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Create.cshtml",
-              "RelativeDocumentMoniker": "FAQq\\Views\\Questions\\Create.cshtml",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Create.cshtml",
-              "RelativeToolTip": "FAQq\\Views\\Questions\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-08T18:37:41.954Z",
+              "WhenOpened": "2026-01-10T13:38:09.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "QuestionsController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\QuestionsController.cs",
               "RelativeDocumentMoniker": "FAQq\\Controllers\\QuestionsController.cs",
               "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\QuestionsController.cs",
               "RelativeToolTip": "FAQq\\Controllers\\QuestionsController.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAkwMwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowIMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:09:34.337Z",
+              "WhenOpened": "2026-01-10T20:06:06.121Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "FAQq\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "FAQq\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAADwv3IAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:07:48.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "FAQq\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "FAQq\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvxoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T18:01:55.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "FAQq\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "FAQq\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:52:46.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Tag.cs",
-              "RelativeDocumentMoniker": "FAQq\\Models\\Tag.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Tag.cs",
-              "RelativeToolTip": "FAQq\\Models\\Tag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:51:21.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QuestionTag.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\QuestionTag.cs",
-              "RelativeDocumentMoniker": "FAQq\\Models\\QuestionTag.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\QuestionTag.cs",
-              "RelativeToolTip": "FAQq\\Models\\QuestionTag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:51:13.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "FAQq\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "FAQq\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:49:58.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "FAQq\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Category.cs",
-              "RelativeToolTip": "FAQq\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:49:57.296Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Answer.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Answer.cs",
-              "RelativeDocumentMoniker": "FAQq\\Models\\Answer.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Answer.cs",
-              "RelativeToolTip": "FAQq\\Models\\Answer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAWAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FAQq\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FAQq\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T15:25:10.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FAQq\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FAQq\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:49:55.831Z",
+              "WhenOpened": "2026-01-10T14:58:44.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "FAQq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "FAQq\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-10T15:24:07.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "FAQq\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "FAQq\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T14:57:49.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Question.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Question.cs",
-              "RelativeDocumentMoniker": "FAQq\\Models\\Question.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Models\\Question.cs",
-              "RelativeToolTip": "FAQq\\Models\\Question.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FAQq\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FAQq\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-10T14:54:24.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategorySeeder.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Data\\CategorySeeder.cs",
+              "RelativeDocumentMoniker": "FAQq\\Data\\CategorySeeder.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Data\\CategorySeeder.cs",
+              "RelativeToolTip": "FAQq\\Data\\CategorySeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwB0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T16:47:44.703Z"
+              "WhenOpened": "2026-01-10T13:44:24.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Pending.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Pending.cshtml",
+              "RelativeDocumentMoniker": "FAQq\\Views\\Questions\\Pending.cshtml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Views\\Questions\\Pending.cshtml",
+              "RelativeToolTip": "FAQq\\Views\\Questions\\Pending.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-08T18:46:41.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "FAQq\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\FAQq\\FAQq\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "FAQq\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T18:01:55.17Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FAQq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16d61c720f545a28f48f7d60554b4cb900b68bf7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FAQq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FAQq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

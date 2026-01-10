@@ -1,5 +1,6 @@
 ﻿using FAQq.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 namespace FAQq.Data
 {
     public static class DbInitializer
@@ -8,10 +9,10 @@ namespace FAQq.Data
         {
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            var context = serviceProvider.GetRequiredService<ApplicationDbContext>();
 
             string[] roles = { "Admin", "Moderator", "User" };
 
-            // 1️⃣ Tworzenie ról
             foreach (var role in roles)
             {
                 if (!await roleManager.RoleExistsAsync(role))
@@ -20,7 +21,6 @@ namespace FAQq.Data
                 }
             }
 
-            // 2️⃣ Konto administratora
             string adminEmail = "admin@faq.local";
             string adminPassword = "Admin123!";
 
@@ -42,6 +42,8 @@ namespace FAQq.Data
                     await userManager.AddToRoleAsync(adminUser, "Admin");
                 }
             }
+            //Kategorie
+            await CategorySeeder.SeedAsync(context);
         }
     }
 }

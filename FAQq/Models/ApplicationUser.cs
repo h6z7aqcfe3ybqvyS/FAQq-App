@@ -5,10 +5,10 @@ namespace FAQq.Models
 {
     public class ApplicationUser : IdentityUser
     {
-        // pytania zadane przez użytkownika
+        // pytania
         public ICollection<Question> Questions { get; set; } = new List<Question>();
 
-        // odpowiedzi dodane przez moderatora/eksperta
+        // odpowiedzi
         public ICollection<Answer> Answers { get; set; } = new List<Answer>();
     }
 }

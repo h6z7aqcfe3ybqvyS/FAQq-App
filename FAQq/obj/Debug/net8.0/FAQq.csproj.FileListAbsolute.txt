@@ -286,3 +286,4 @@ C:\Users\pc\source\repos\FAQq\FAQq\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Sc
 C:\Users\pc\source\repos\FAQq\FAQq\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\pc\source\repos\FAQq\FAQq\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\pc\source\repos\FAQq\FAQq\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\pc\source\repos\FAQq\FAQq\obj\Debug\net8.0\FAQq.sourcelink.json

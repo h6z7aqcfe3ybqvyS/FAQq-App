@@ -28,17 +28,39 @@ namespace FAQq.Controllers
         }
 
 
-        // GET: Questions - zmione tak, że Guest widzi tylko zatwierdzone, User widzi tylko zatwierdzone, pending są ukryte
-        public async Task<IActionResult> Index()
+        // GET: Questions
+        public async Task<IActionResult> Index(string search, int? categoryId)
         {
-            var applicationDbContext = _context.Questions
+            var query = _context.Questions
                 .Where(q => q.IsApproved)
                 .Include(q => q.Category)
-                .Include(q => q.User);
+                .Include(q => q.User)
+                .AsQueryable();
 
-            return View(await applicationDbContext.ToListAsync());
+            // wyszukiwanie w tytule i treści
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                query = query.Where(q =>
+                    q.Title.Contains(search) ||
+                    q.Content.Contains(search));
+            }
 
+            // filtrowanie po kategorii
+            if (categoryId.HasValue)
+            {
+                query = query.Where(q => q.CategoryId == categoryId.Value);
+            }
+
+            var allCategories = await _context.Categories.ToListAsync();
+            ViewData["Categories"] = BuildCategoryTree(allCategories);
+
+            // zapamiętaj co było wybrane
+            ViewData["Search"] = search;
+            ViewData["SelectedCategory"] = categoryId;
+
+            return View(await query.ToListAsync());
         }
+
         // METODA Pending()
         [Authorize(Roles = "Moderator,Admin")]
         public async Task<IActionResult> Pending()
@@ -66,7 +88,6 @@ namespace FAQq.Controllers
             return RedirectToAction(nameof(Pending));
         }
 
-
         // GET: Questions/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -89,12 +110,12 @@ namespace FAQq.Controllers
 
         // GET: Questions/Create
         [Authorize]
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+            var categories = await _context.Categories.ToListAsync();
+            ViewData["Categories"] = BuildCategoryTree(categories);
             return View();
         }
-
         // POST: Questions/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -120,7 +141,7 @@ namespace FAQq.Controllers
 
 
         // GET: Questions/Edit/5
-        [Authorize]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -141,6 +162,7 @@ namespace FAQq.Controllers
         // POST: Questions/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin,Moderator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Content,CreatedAt,IsApproved,CategoryId,UserId")] Question question)
@@ -176,7 +198,7 @@ namespace FAQq.Controllers
         }
 
         // GET: Questions/Delete/5
-        [Authorize]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -200,9 +222,9 @@ namespace FAQq.Controllers
         }
 
         // POST: Questions/Delete/5
+        [Authorize(Roles = "Admin,Moderator")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var question = await _context.Questions.FindAsync(id);
@@ -219,5 +241,22 @@ namespace FAQq.Controllers
         {
             return _context.Questions.Any(e => e.Id == id);
         }
+
+        private List<SelectListItem> BuildCategoryTree(IEnumerable<Category> categories, int? parentId = null, string prefix = "")
+        {
+            return categories
+                .Where(c => c.ParentCategoryId == parentId)
+                .OrderBy(c => c.Name)
+                .SelectMany(c => new[]
+                {
+            new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = prefix + c.Name
+            }
+                }.Concat(BuildCategoryTree(categories, c.Id, prefix + "— ")))
+                .ToList();
+        }
+
     }
 }

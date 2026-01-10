@@ -1,16 +1,39 @@
 ﻿@model IEnumerable<FAQq.Models.Question>
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "FAQ";
 }
 
+<h1>Baza wiedzy FAQ</h1>
+<form method="get" class="row mb-3">
+    <div class="col-md-5">
+        <input type="text"
+               name="search"
+               value="@ViewData["Search"]"
+               class="form-control"
+               placeholder="Szukaj w pytaniach..." />
+    </div>
 
+    <div class="col-md-4">
+        <select name="categoryId" class="form-control">
+            <option value="">-- wszystkie kategorie --</option>
 
-<h1>Index</h1>
+            @foreach (var c in (List<SelectListItem>)ViewData["Categories"])
+            {
+                <option value="@c.Value">@c.Text</option>
+            }
+        </select>
+    </div>
 
+    <div class="col-md-3">
+        <button type="submit" class="btn btn-primary w-100">
+            Filtruj
+        </button>
+    </div>
+</form>
 <p>
     @if (User.Identity.IsAuthenticated)
     {
-        <a asp-action="Create" class="btn btn-primary">Zadaj pytanie</a>
+        <a asp-controller="Questions" asp-action="Create" class="btn btn-primary">Zadaj pytanie</a>
     }
 
 </p>
@@ -53,8 +76,10 @@
                     {
                         <a asp-controller="Questions" asp-action="Edit" asp-route-id="@item.Id">Edytuj</a>
                         <a asp-controller="Questions" asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
-                        <a asp-controller="Questions" asp-action="Details" asp-route-id="@item.Id">Pokaż</a>
                     }
+                </td>
+                <td>
+                    <a asp-controller="Questions" asp-action="Details" asp-route-id="@item.Id">Pokaż</a>
                 </td>
 
             </tr>

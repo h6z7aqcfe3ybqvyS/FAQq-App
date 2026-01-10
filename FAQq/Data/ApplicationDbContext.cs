@@ -21,11 +21,11 @@ namespace FAQq.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // many-to-many Question <-> Tag
+            // many-to-many Question - Tag
             modelBuilder.Entity<QuestionTag>()
                 .HasKey(qt => new { qt.QuestionId, qt.TagId });
 
-            // Category self-reference (podkategorie)
+            //Podkategorie self-reference
             modelBuilder.Entity<Category>()
                 .HasOne(c => c.ParentCategory)
                 .WithMany(c => c.SubCategories)

@@ -19,11 +19,8 @@
                 <td>@q.Category?.Name</td>
                 <td>@q.User?.Email</td>
                 <td>
-                    <a asp-action="Approve"
-                       asp-route-id="@q.Id"
-                       class="btn btn-success btn-sm">
-                        Zatwierdź
-                    </a>
+                    <a asp-action="Approve" asp-route-id="@q.Id" class="btn btn-success btn-sm">Zatwierdź</a>
+                    <a asp-action="Delete" asp-route-id="@q.Id">Usuń</a>
                 </td>
             </tr>
         }
